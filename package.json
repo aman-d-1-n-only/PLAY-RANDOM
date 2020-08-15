@@ -1,0 +1,17 @@
+{
+    "name": "music-generator",
+    "version": "1.0.0",
+    "description": "A fun-web app to play with sounds ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index"
+    },
+    "author": "aman-d-1-n-only",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.3",
+        "express": "^4.17.1",
+        "morgan": "^1.10.0"
+    }
+}
