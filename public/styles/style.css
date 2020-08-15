@@ -12,3 +12,12 @@ canvas[resize] {
     height: 100%;
     background-color: black;
 }
+
+#main {
+    height: 125vh;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
