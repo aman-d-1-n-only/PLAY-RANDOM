@@ -8,7 +8,7 @@ PLUG | PRESS | PLAY
 
 ___
 
-##Set-up
+## Set-up
 ```bash
 npm install 
 npm start
