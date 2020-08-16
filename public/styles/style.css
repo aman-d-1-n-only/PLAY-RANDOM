@@ -8,15 +8,29 @@ body {
 /* Scale canvas with resize attribute to full size */
 
 canvas[resize] {
-    margin: 0;
     width: 100%;
     height: 100%;
+    min-height: 90vh;
     background-color: black;
     color: yellowgreen;
 }
 
+.custom {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    height: 10vh;
+}
+
 #main {
     position: relative;
+}
+
+.main-heading {
+    text-align: center;
+    position: absolute;
+    font-size: 1rem;
+    top: 40%;
+    left: 10%;
 }
 
 img {
@@ -27,42 +41,37 @@ img {
     margin: 0;
 }
 
-.heading {
-    text-align: center;
-    position: absolute;
-    font-size: 1rem;
-    top: 40%;
-    left: 10%;
-}
-
 button {
     border: none;
     border-radius: 2rem;
-    padding: 1rem 3rem;
     background-color: black;
     color: whitesmoke;
 }
 
 a {
+    display: block;
     text-decoration: none;
+    padding: 1rem 3rem;
     color: whitesmoke !important;
 }
 
-.custom {
-    border-radius: 0 !important;
-    margin: 0 !important;
-    height: 10vh;
+.canvas-text {
+    width: auto;
+    min-height: 10vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: grey;
+    position: relative;
+    padding-top: 0.5vh;
 }
 
-.container {
-    color: whitesmoke;
+.trigger {
+    position: absolute;
+    right: 1%;
+    top: 10%;
 }
 
 @media only screen and (max-width: 810px) {
-    #main {
-        min-height: 90vh;
-        background-color: yellow;
-    }
     img {
         display: none;
     }

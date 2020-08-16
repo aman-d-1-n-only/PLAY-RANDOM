@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Generator</title>
+    <title>Play Random</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
@@ -16,24 +16,31 @@
 
 <body>
     <div class="ui inverted menu custom">
-        <a href="#Canvas" class="item">
-    MUSIC GENERATOR
+        <a class="item" href="#canvas">
+    PLAY RANDOM
   </a>
     </div>
     <div class="main">
         <img src="images/music-generator.jpg" alt="Main Page">
-        <div data-aos="fade-up" class="heading">
+        <div data-aos="fade-up" data-aos-delay="2000" class="main-heading">
             <p>Plug | Play</p>
-            <h1>MUSIC GENERATOR</h1>
-            <button><a href="#Canvas">Tap !</a></button>
+            <h1>PLAY RANDOM </h1>
+            <button><a  href="#canvas">Tap !</a></button>
         </div>
     </div>
-    <canvas data-aos="zoom-in" id="Canvas" resize>    
-    </canvas>
+    <div id="canvas">
+        <div class="canvas-text">
+            <button class="trigger">Close</button>
+            <h3>Press Key [A-Z]</h3>
+        </div>
+        <canvas data-aos="zoom-in" id="Canvas" resize>    </canvas>
+    </div>
+
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../public/js/main.js"></script>
+    <script src="js/main.js"></script>
     <script>
         AOS.init();
     </script>
