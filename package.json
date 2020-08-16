@@ -2,10 +2,10 @@
     "name": "music-generator",
     "version": "1.0.0",
     "description": "A fun-web app to play with sounds ",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node index"
+        "start": "node app"
     },
     "author": "aman-d-1-n-only",
     "license": "ISC",
