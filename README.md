@@ -2,9 +2,9 @@
 PLUG | PRESS | PLAY
 
 ## Resources
-> [howler.js](https://howlerjs.com/)-Audio library.
-> [paper.js](http://paperjs.org/)-Vector graphics scripting framework.
-> [AOS](https://michalsnik.github.io/aos/)-Animate On Scroll Library.
+> Audio library : [howler.js](https://howlerjs.com/)    
+> Vector graphics scripting framework : [paper.js](http://paperjs.org/)  
+> Animate On Scroll Library : [AOS](https://michalsnik.github.io/aos/)    
 
 ___
 
