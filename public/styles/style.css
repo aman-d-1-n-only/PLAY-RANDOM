@@ -8,16 +8,62 @@ body {
 /* Scale canvas with resize attribute to full size */
 
 canvas[resize] {
+    margin: 0;
     width: 100%;
     height: 100%;
     background-color: black;
+    color: yellowgreen;
 }
 
 #main {
-    height: 125vh;
+    position: relative;
 }
 
 img {
+    height: 90vh;
     width: 100%;
-    background-size: cover;
+    filter: brightness(70%);
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    position: absolute;
+    font-size: 1rem;
+    top: 40%;
+    left: 10%;
+}
+
+button {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke !important;
+}
+
+.custom {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    height: 10vh;
+}
+
+.container {
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 810px) {
+    #main {
+        min-height: 90vh;
+        background-color: yellow;
+    }
+    img {
+        display: none;
+    }
 }

@@ -7,16 +7,36 @@
     <title>Music Generator</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.0/howler.min.js"></script>
     <script type="text/javascript" src="assets/js files/paper-full.js"></script>
     <script type="text/paperscript" src="js/PaperScript.js" canvas="Canvas"> </script>
 </head>
 
 <body>
-    <div id="main">
-        <img src="images/music-generator.jpg" alt="The Main Image">
+    <div class="ui inverted menu custom">
+        <a href="#Canvas" class="item">
+    MUSIC GENERATOR
+  </a>
     </div>
-    <canvas id="Canvas" resize></canvas>
+    <div class="main">
+        <img src="images/music-generator.jpg" alt="Main Page">
+        <div data-aos="fade-up" class="heading">
+            <p>Plug | Play</p>
+            <h1>MUSIC GENERATOR</h1>
+            <button><a href="#Canvas">Tap !</a></button>
+        </div>
+    </div>
+    <canvas data-aos="zoom-in" id="Canvas" resize>    
+    </canvas>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../public/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
